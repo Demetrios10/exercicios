@@ -26,6 +26,8 @@ public class Main { public static void main(String[] args) {
 📌 Executar no VS Code Instale o Java 
 Instale o VS Code Instale a extensão Java Clique em ▶ Run
 
+
+
 📚 Conceitos Básicos Variáveis 
 
 ​​String nome = "João"; 
