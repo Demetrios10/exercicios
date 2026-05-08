@@ -12,14 +12,12 @@ Programação Orientada a Objetos (POO)
 
 
 
-🛠 Ferramentas
-Java JDK
-VS Code
-GitHub
+🛠 Ferramentas >  Java JDK , VS Code , GitHub
 
 
 
 ▶️ Primeiro Código Java
+
 public class Main {
     public static void main(String[] args) {
 
@@ -31,11 +29,7 @@ public class Main {
 
 
 
-📌 Executar no VS Code
-Instale o Java
-Instale o VS Code
-Instale a extensão Java
-Clique em ▶ Run
+📌 Executar no VS Code > Instale o Java > Instale o VS Code > Instale a extensão Java > Clique em ▶ Run
 
 
 
