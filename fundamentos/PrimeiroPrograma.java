@@ -5,6 +5,6 @@ public class PrimeiroPrograma {
         System.out.println("Bem-vindo ao Mundo Java!");
         System.out.println("Vamos aprender a programar juntos!");
 
-        // Demetrios Alves da Silva
+        // Boa tarde !!
     }
 }
