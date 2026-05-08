@@ -11,10 +11,13 @@ Métodos
 Programação Orientada a Objetos (POO)
 
 
+
 🛠 Ferramentas
 Java JDK
 VS Code
 GitHub
+
+
 
 ▶️ Primeiro Código Java
 public class Main {
@@ -26,11 +29,15 @@ public class Main {
 }
 
 
+
+
 📌 Executar no VS Code
 Instale o Java
 Instale o VS Code
 Instale a extensão Java
 Clique em ▶ Run
+
+
 
 
 📚 Conceitos Básicos
@@ -43,10 +50,13 @@ if (idade >= 18) {
     System.out.println("Maior de idade");
 }
 
+
+
 Repetição
 for(int i = 0; i < 5; i++) {
     System.out.println(i);
 }
+
 
 
 🎯 Objetivo
