@@ -5,6 +5,9 @@ public class AreaCircunferencia {
         double raio = 3.4;
         double area = Math.PI * Math.pow(raio, 2);
         System.out.println("A área da circunferência é: " + area);
+    
+        
+        System.out.println("A IA ajuda muito em tudo");
     }
     
 }
