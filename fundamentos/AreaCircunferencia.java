@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class AreaDaCircunferencia {
+public class AreaCircunferencia {
     public static void main(String[] args) {
         double raio = 3.4;
         double area = Math.PI * Math.pow(raio, 2);
