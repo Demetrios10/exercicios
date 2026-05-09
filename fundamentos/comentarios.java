@@ -3,7 +3,7 @@ package fundamentos;
 public class comentarios {
 public static void main(String[] args) {
 
-    System.out.println("Olá, Mundo!");
+    System.out.println("tudo o que esta abaixo é comentario em java!");
     }
 
 }
