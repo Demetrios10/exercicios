@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class comentarios {
+public class Comentarios {
 public static void main(String[] args) {
 
     System.out.println("tudo o que esta abaixo é comentario em java!");
