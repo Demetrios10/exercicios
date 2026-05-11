@@ -10,6 +10,5 @@ public class TipoString {
 
         System.out.println(s.concat("!!!"));
 
-        System.out.println(s + "!!!");
     }
 }
