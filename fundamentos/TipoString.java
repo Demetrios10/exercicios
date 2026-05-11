@@ -13,8 +13,16 @@ public class TipoString {
         System.out.println(s.toUpperCase()); // Imprime a string em maiúsculas
         System.out.println(s.toLowerCase()); // Imprime a string em minúsculas
 
+        var nome = "Denis";
+        var sobrenome = "Silva";
+        var idade = 39;
+        var salario = 12345.987;
 
-        
+        // Imprime a string formatada com os valores de nome e sobrenome e idade e salário
+        System.out.printf("O senhor %s %s tem %d anos e recebe R$ %.2f de salário!", 
+        nome, sobrenome, idade, salario);
+
+
 
     }
 }
