@@ -1,4 +1,5 @@
 package fundamentos;
+
 public class NotacaoPonto{
     public static void main(String[] args) {
         
@@ -11,7 +12,8 @@ public class NotacaoPonto{
         System.out.println(s);
         System.out.println("Demetrios".concat("Alves".toUpperCase()));
 
-
+        String  y  = "Deltas";
+        System.out.print(y.concat("City"));
 
     }
 }
