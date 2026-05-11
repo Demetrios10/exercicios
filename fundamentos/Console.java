@@ -3,28 +3,26 @@ package fundamentos;
 import java.util.Scanner;
 
 public class Console {
-    
     public static void main(String[] args) {
 
-        System.out.print("Bom");
-        System.out.print(" dia!\n");
-
-        System.out.println("Boa noite!");
-        System.out.println("Até mais!");
-
-        System.out.printf("Megasena: %d %d %d %d %d %d\n", 1, 2, 3, 4, 5, 6);
-        System.out.printf("Salário: R$ %.2f\n", 1234.5678);
-
-
-
         System.out.print("Digite o seu nome: ");
-        Scanner entrada = new Scanner(System.in); // System.in é o fluxo de entrada do teclado
+        Scanner entrada = new Scanner(System.in);
+        String nome = entrada.nextLine();
+        
 
-        String nome = entrada.nextLine(); // nextLine() lê a linha inteira digitada pelo usuário, incluindo espaços em branco
+         System.out.print("Digite o sua idade: ");
+         Scanner entrada2 = new Scanner(System.in);
+         int idade = entrada2.nextInt();
         
-        System.out.println("Olá, " + nome + "!");
+
+         System.out.print("Digite a sua cidade: ");
+         Scanner entrada3 = new Scanner(System.in);
+         String cidade = entrada3.nextLine();
         
-        entrada.close(); // Fechar o scanner para liberar recursos do sistema
+        System.out.println("Olá, " + nome + "! Você tem " + idade + " anos e mora em " + cidade + ".");
+        entrada.close();
+        entrada2.close();
+        entrada3.close();
 
     }
     
