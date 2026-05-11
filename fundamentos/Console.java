@@ -1,0 +1,18 @@
+package fundamentos;
+
+public class Console {
+    
+    public static void main(String[] args) {
+
+        System.out.print("Bom");
+        System.out.print(" dia!\n");
+
+        System.out.println("Boa noite!");
+        System.out.println("Até mais!");
+
+        System.out.printf("Megasena: %d %d %d %d %d %d\n", 1, 2, 3, 4, 5, 6);
+        System.out.printf("Salário: R$ %.2f\n", 1234.5678);
+
+    }
+    
+}

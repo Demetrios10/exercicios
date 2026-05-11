@@ -19,7 +19,7 @@ public class TipoString {
         var salario = 12345.987;
 
         // Imprime a string formatada com os valores de nome e sobrenome e idade e salário
-        System.out.printf("O senhor %s %s tem %d anos e recebe R$ %.2f de salário!", 
+        System.out.printf("O senhor %s %s tem %d anos e recebe R$ %.2f de salário!",
         nome, sobrenome, idade, salario);
 
 
