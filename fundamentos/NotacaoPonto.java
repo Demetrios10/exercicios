@@ -13,7 +13,7 @@ public class NotacaoPonto{
         System.out.println("Demetrios".concat("Alves".toUpperCase()));
 
         String  y  = "Deltas";
-        System.out.print(y.concat("City"));
+        System.out.println(y.concat("City"));
 
         
         String nome = "Marcia";
