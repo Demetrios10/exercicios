@@ -1,49 +1,99 @@
-☕ Java para Iniciantes
+# Fundamentos Java
 
-Bem vindo ao Java! Este repositório foi criado para ajudar quem está começando na programação.
+Repositório de estudos para praticar fundamentos de Java, lógica de programação e primeiros conceitos de programação orientada a objetos.
 
-🚀 O que você vai aprender 
-Variáveis 
-​​Condições (if) 
-Repetições (for) 
-Métodos 
-Programação Orientada a Objetos (POO)
+## Visão geral
 
+Este projeto registra minha evolução com Java por meio de exemplos simples, exercícios e organização gradual dos principais conceitos da linguagem.
 
-🛠 Ferramentas 
-Java JDK 
-VS Code 
-GitHub
+## Status do projeto
 
-▶️Primeiro Código Java 
+Em evolução.
 
-public class Main { public static void main(String[] args) {
-    System.out.println("Olá, Mundo!");
+## Conteúdo estudado
 
+| Tema | Objetivo |
+| --- | --- |
+| Variáveis e tipos | Trabalhar com dados básicos em Java |
+| Condicionais | Criar decisões com `if` e `else` |
+| Repetições | Usar estruturas como `for` e `while` |
+| Métodos | Separar responsabilidades e reaproveitar código |
+| Classes e objetos | Entender os primeiros conceitos de POO |
+| POO | Evoluir para encapsulamento, herança e polimorfismo |
+
+## Ferramentas
+
+- Java JDK
+- VS Code
+- Git e GitHub
+
+## Estrutura sugerida
+
+```text
+Fundamentos-Java/
+|-- exercicios/
+|-- exemplos/
+|-- projetos/
+`-- README.md
+```
+
+## Primeiro código
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    }
 }
-}
+```
 
-📌 Executar no VS Code Instale o Java 
-Instale o VS Code Instale a extensão Java Clique em ▶ Run
+## Exemplos básicos
 
+Variáveis:
 
-
-📚 Conceitos Básicos Variáveis 
-
-​​String nome = "João"; 
+```java
+String nome = "João";
 int idade = 20;
+```
 
+Condicional:
 
+```java
+if (idade >= 18) {
+    System.out.println("Maior idade");
+}
+```
 
-Condição if (idade >= 18) 
-{ System.out.println("Maior idade"); }
+Repetição:
 
+```java
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+```
 
+## Como executar
 
-Repetição for(int i = 0; i < 5; i++) 
-{ System.out.println(i); }
+Compile o arquivo:
 
+```bash
+javac Main.java
+```
 
-🎯 Objetivo
-Aprenda lógica de programação e crie projetos em Java.
-⭐ Boa sorte Demétrios na sua jornada Java!
+Execute o programa:
+
+```bash
+java Main
+```
+
+## Roadmap
+
+- Organizar exercícios por tema
+- Criar exemplos com classes e objetos
+- Praticar métodos e reaproveitamento de código
+- Evoluir para encapsulamento, herança e polimorfismo
+- Criar pequenos projetos em Java
+
+## Autor
+
+Demétrios Alves Da Silva
